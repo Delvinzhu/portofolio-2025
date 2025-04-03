@@ -14,7 +14,7 @@ const ProjectsSection = () => {
             <button
               className="px-4 py-2 bg-badge text-white rounded-lg cursor-pointer hover:bg-primary-dark transition-colors"
               onClick={() =>
-                window.open("https://example.com/codehub", "_blank")
+                window.open("https://project-jsm.onrender.com", "_blank")
               }
             >
               View Project
@@ -32,9 +32,7 @@ const ProjectsSection = () => {
           <span className="text-white">Contact Me</span>
           <button
             className="px-4 py-2 bg-badge text-white rounded-lg cursor-pointer transition-colors"
-            onClick={() =>
-              window.open("mailto:your.delvinzhu7@gmail.com", "_blank")
-            }
+            onClick={() => window.open("mailto:delvinzhu7@gmail.com", "_blank")}
           >
             Get in Touch
           </button>
