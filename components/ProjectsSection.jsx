@@ -17,7 +17,7 @@ const ProjectsSection = () => {
                 window.open("https://project-jsm.onrender.com", "_blank")
               }
             >
-              View Project
+              View
             </button>
           </div>
           <div className="flex justify-between items-center">
@@ -28,7 +28,7 @@ const ProjectsSection = () => {
                 window.open("https://ui-project-jxx4.onrender.com/", "_blank")
               }
             >
-              View Project
+              View
             </button>
           </div>
         </div>
