@@ -4,11 +4,11 @@ import React from "react";
 
 const ProjectsSection = () => {
   return (
-    <div className="mt-8">
+    <div className="mt-4">
       <h3 className="text-2xl font-bold text-white mb-4">Featured Projects</h3>
       <div className="flex flex-col gap-4">
         {/* Proyek Baru: StackOverflow-like Website */}
-        <div className="flex flex-col bg-gray-800 p-4 rounded-lg card-project">
+        <div className="flex flex-col bg-gray-800 p-4 gap-4 rounded-lg card-project">
           <div className="flex justify-between items-center">
             <span className="text-white font-bold">DevFlow</span>
             <button
@@ -20,11 +20,17 @@ const ProjectsSection = () => {
               View Project
             </button>
           </div>
-          <p className="text-gray-300 text-sm mt-2">
-            A Stack Overflow-inspired platform built with Next.js, featuring
-            scalable architecture, social authentication (GitHub/Google),
-            dynamic filtering, and AI-powered answer suggestions.
-          </p>
+          <div className="flex justify-between items-center">
+            <span className="text-white font-bold">Creative Frontend Demo</span>
+            <button
+              className="px-4 py-2 bg-badge text-white rounded-lg cursor-pointer hover:bg-primary-dark transition-colors"
+              onClick={() =>
+                window.open("https://ui-project-jxx4.onrender.com/", "_blank")
+              }
+            >
+              View Project
+            </button>
+          </div>
         </div>
 
         {/* Contact Me */}

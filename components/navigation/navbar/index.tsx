@@ -7,7 +7,7 @@ import ChartSkill from "@/components/ChartSkill";
 
 const Navbar = () => {
   return (
-    <div className="grid h-[1300px] gap-[13px] lg:grid-cols-[1fr_1.618fr_1fr] lg:h-screen lg:gap-[13px] lg:w-screen lg:mx-auto lg:p-[21px] bg-black-950">
+    <div className="grid h-[1300px] gap-[13px] lg:grid-cols-[1fr_1.618fr_1fr] lg:h-screen lg:gap-[13px] lg:w-screen lg:mx-auto lg:p-[21px]">
       {/* Left Section */}
       <div className="flex flex-col gap-[13px]">
         <div className="rounded-lg flex-grow-[1.618] p-[21px] flex items-center justify-center element">
@@ -125,7 +125,7 @@ const Navbar = () => {
       <div className="flex flex-col gap-[13px]">
         {/* Top Part - Next.js Expertise */}
         <div className="rounded-lg flex-grow-[1.618] p-[21px] flex items-center justify-center">
-          <div className="flex flex-col items-center p-6 bg-black-950 text-white border-2 border-white rounded-2xl shadow-[0_0_15px_#ffffff] w-full element-child3">
+          <div className="flex flex-col items-center p-6 bg-black-950 text-white border-2 border-white rounded-2xl shadow-[0_0_15px_#ffffff] w-full element-child3 bg-black/40 inset-0 backdrop-blur-sm py-4">
             {/* Container untuk Next.js Logo */}
             <div className="w-[90px] h-[90px] flex items-center justify-center border-2 border-white bg-white rounded-full p-[13px] mb-4">
               <Image
@@ -137,8 +137,10 @@ const Navbar = () => {
                 priority
               />
             </div>
-            <h2 className="text-xl font-bold mb-2">Next.js Expertise</h2>
-            <ul className="list-disc pl-5 space-y-1 text-sm">
+            <h2 className="text-xl font-bold mb-2 bg-black border-2 border-white rounded-2xl px-4">
+              Next.js Expertise
+            </h2>
+            <ul className="list-disc pl-5 space-y-1 text-sm ">
               <li>
                 <strong>Scalable Architecture:</strong> Designed clean, modular,
                 and easily extensible folder structures (e.g., dedicated `api`
@@ -182,7 +184,7 @@ const Navbar = () => {
 
         {/* Bottom Part - Updated Additional Information */}
         <div className="rounded-lg flex-grow-[1] p-[21px] flex items-center justify-center">
-          <div className="flex flex-col items-center p-6 bg-black-950 text-white border-2 border-white rounded-2xl shadow-[0_0_15px_#ffffff] w-full element-child5">
+          <div className="flex flex-col items-center p-6 bg-black-950 text-white border-2 border-white rounded-2xl shadow-[0_0_15px_#ffffff] w-full element-child5 bg-black/40 inset-0 backdrop-blur-sm  py-4">
             <h2 className="text-xl font-bold mb-2">Additional Information</h2>
             <p className="text-sm text-gray-300 text-center">
               I am actively seeking remote work opportunities to gain valuable
